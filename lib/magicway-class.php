@@ -316,7 +316,7 @@ class Magicway_Payment extends WC_Payment_Gateway
                         'order_id' => $tran_id,
                         'reference_id' => $val_id,
                         'store_id' => $this->store_id,
-                        'plugin_type' => "WORDPRESS"
+                        'is_plugin' => "YES"
                     );
                     $hearers = array(
                         'Authorization' => "Bearer $access_token"
